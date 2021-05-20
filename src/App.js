@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { FilePond } from 'react-filepond';
 import 'filepond/dist/filepond.min.css';
+import { UploadsViewStateContext } from '../contexts/viewStateContext';
 
 function App() {
 
