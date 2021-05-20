@@ -6,6 +6,14 @@ import 'filepond/dist/filepond.min.css';
 
 function App() {
   return (
+  	<input type="file" id="file-selector" multiple>
+	<script>
+	  const fileSelector = document.getElementById('file-selector');
+	  fileSelector.addEventListener('change', (event) => {
+	    const fileList = event.target.files;
+	    console.log(fileList);
+	  });
+	</script>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
