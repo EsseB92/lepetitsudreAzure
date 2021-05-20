@@ -7,7 +7,7 @@ import 'filepond/dist/filepond.min.css';
 function App() {
   return (
     <div className="App">
-  		<FilePond server="https://cnamtpfuncayw.azurewebsites.net/api/UploadPhoto?code=3EuwYbV4M0VmzwQXY4wSkbchkWtmRsd0bhX/7PHfoySM2D2RZwpmDQ=="/>
+  		<FilePond server="https://lepetitsudredescimage.azurewebsites.net/api/AnalyseImage?code=mpjotMyJJ9J1NgzZtGuMPKYo5fWhMVkn9aHR8U8DMgcRQce0KcJO5A=="/>
     </div>
   );
 }
